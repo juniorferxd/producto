@@ -1,4 +1,4 @@
 <?php
 
-$mysqli = new mysqli("localhost","root","","cepuns");
+$mysqli = new mysqli("http://146.148.73.157","root","","cepuns");
 ?>
