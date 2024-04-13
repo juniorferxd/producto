@@ -1,7 +1,7 @@
 <?php
 include ("Function_Backup.php");
 
-echo backup_tables("146.148.73.15","root","","cepuns");
+echo backup_tables("http://146.148.73.157","root","","cepuns");
 $fecha=date("Y-m-d");
 header("Content-disposition: attachment; filename=db-backup-".$fecha.".sql");
 header("Content-type: MIME");
