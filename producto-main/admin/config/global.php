@@ -1,6 +1,6 @@
 <?php 
 //ip de la pc servidor base de datos
-define("DB_HOST", "localhost");
+define("DB_HOST", "146.148.73.157");
 
 // nombre de la base de datos
 define("DB_NAME", "cepuns");
